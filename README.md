@@ -66,7 +66,7 @@ student_management/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/student-management-system.git
+git clone https://github.com/Bhoomika-Babbar/student-details-app.git
 ```
 
 ---
