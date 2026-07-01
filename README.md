@@ -1,6 +1,6 @@
 # 📚 Student Management System
 
-A full-stack **Student Management System** developed using **Flutter**, **PHP**, and **MySQL**. The application allows users to register students, store their details in a MySQL database, and retrieve all student records through a simple and user-friendly interface.
+A cross-platform Student Management System built using Flutter for the frontend, PHP for the backend, and MySQL for data storage. The application allows users to register students, store their details in a database, and view all registered students through a clean and user-friendly interface.
 
 ---
 
@@ -33,31 +33,35 @@ A full-stack **Student Management System** developed using **Flutter**, **PHP**,
 ```text
 student_management/
 │
+├── android/
+├── ios/
 ├── lib/
 │   ├── main.dart
 │   └── student_details.dart
-│
+├── linux/
+├── macos/
 ├── php/
 │   ├── db_connect.php
 │   ├── insert_student.php
 │   └── fetch_students.php
-│
-├── student_db.sql
+├── web/
+├── windows/
+├── students_db.sql
 ├── pubspec.yaml
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## 🚀 Features Implemented
 
-- Register a new student
-- Save data into MySQL database
-- Fetch all student records
-- Display records in Flutter
-- Loading indicators
-- Navigation between screens
-- Error handling
+- Update existing student records
+- Delete student records
+- Search students by Roll Number
+- Input validation for registration form
+- User authentication and login
+- Enhanced UI/UX with modern Flutter widgets
 
 ---
 
@@ -160,6 +164,12 @@ flutter run
 - Form Validation
 - Authentication
 - Responsive UI Enhancements
+
+---
+
+## 📝 Note
+
+This project is configured to run on a local XAMPP server. Before running the application, update the API URL in the Flutter project to match your computer's local IP address.
 
 ---
 
