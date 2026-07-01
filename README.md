@@ -1,17 +1,174 @@
-# student_management
+# 📚 Student Management System
 
-A new Flutter project.
+A full-stack **Student Management System** developed using **Flutter**, **PHP**, and **MySQL**. The application allows users to register students, store their details in a MySQL database, and retrieve all student records through a simple and user-friendly interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 Student Registration Form
+- 💾 Store student data in MySQL database
+- 📋 View all registered students
+- 🔄 Flutter ↔ PHP API integration
+- 🌐 REST API using PHP
+- 📱 Simple and responsive Flutter UI
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Flutter | Frontend |
+| Dart | Programming Language |
+| PHP | Backend API |
+| MySQL | Database |
+| XAMPP | Local Server |
+| HTTP Package | API Communication |
+
+---
+
+## 📂 Project Structure
+
+```text
+student_management/
+│
+├── lib/
+│   ├── main.dart
+│   └── student_details.dart
+│
+├── php/
+│   ├── db_connect.php
+│   ├── insert_student.php
+│   └── fetch_students.php
+│
+├── student_db.sql
+├── pubspec.yaml
+└── README.md
+```
+
+---
+
+## 🚀 Features Implemented
+
+- Register a new student
+- Save data into MySQL database
+- Fetch all student records
+- Display records in Flutter
+- Loading indicators
+- Navigation between screens
+- Error handling
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/student-management-system.git
+```
+
+---
+
+### 2. Install Flutter Dependencies
+
+```bash
+flutter pub get
+```
+
+---
+
+### 3. Setup Database
+
+- Open **phpMyAdmin**
+- Create a database named:
+
+```
+student_db
+```
+
+- Import:
+
+```
+student_db.sql
+```
+
+---
+
+### 4. Setup PHP
+
+Copy the `php` folder into your XAMPP `htdocs` directory.
+
+Example (macOS):
+
+```text
+/Applications/XAMPP/xamppfiles/htdocs/student_api/
+```
+
+Start:
+
+- Apache
+- MySQL
+
+using the XAMPP Control Panel.
+
+---
+
+### 5. Update API URL
+
+Replace the API URL in Flutter with your local IP address.
+
+Example:
+
+```dart
+http://192.168.x.x/student_api/insert_student.php
+```
+
+and
+
+```dart
+http://192.168.x.x/student_api/fetch_students.php
+```
+
+Replace `192.168.x.x` with your own computer's IP address.
+
+---
+
+### 6. Run the Project
+
+```bash
+flutter run
+```
+
+---
+
+## 📸 Screens
+
+- Student Registration Screen
+- Student Records Screen
+
+> You can add screenshots here after uploading them to GitHub.
+
+---
+
+## 📌 Future Improvements
+
+- Update Student Details
+- Delete Student
+- Search Student
+- Form Validation
+- Authentication
+- Responsive UI Enhancements
+
+---
+
+## 👩‍💻 Author
+
+**Bhoomika**
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes.
