@@ -19,7 +19,7 @@ A cross-platform Student Management System built using Flutter for the frontend,
 
 - Student Registration Screen
 
-![Student Registration](screenshots/registration.png)
+![Student Registration](screenshots/Register.png)
 
 - Student Details Screen
 
