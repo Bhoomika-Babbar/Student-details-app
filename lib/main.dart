@@ -57,7 +57,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
 
     var url = Uri.parse(
-      "http://192.168.1.3/student_api/insert_student.php",
+      "http://192.168.1.10/student_api/insert_student.php",
     );
 
 

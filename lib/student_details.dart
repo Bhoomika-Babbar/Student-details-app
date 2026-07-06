@@ -37,7 +37,7 @@ class _StudentDetailsState
 
     var url = Uri.parse(
 
-      "http://192.168.1.3/student_api/fetch_students.php",
+      "http://192.168.1.10/student_api/fetch_students.php",
 
     );
 
@@ -65,17 +65,30 @@ class _StudentDetailsState
 
 
         });
+        
+      }else {
+        setState(() {
+          loading = false;
+        });
 
-
-      }
+      print("Status Code: ${response.statusCode}");
 
 
     }
+  }
 
     catch(e){
+      print("ERROR: $e");
 
+      setState(() {
+      loading = false;
+      });
 
-      print(e);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text("Error: $e"),
+        ),
+      );
 
 
     }
