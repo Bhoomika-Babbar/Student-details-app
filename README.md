@@ -13,6 +13,18 @@ A cross-platform Student Management System built using Flutter for the frontend,
 - 🌐 REST API using PHP
 - 📱 Simple and responsive Flutter UI
 
+--
+
+## 📷 Screenshots
+
+- Student Registration Screen
+
+![Student Registration](screenshots/registration.png)
+
+- Student Details Screen
+
+![Student Registration](screenshots/show_details.png)
+
 ---
 
 ## 🛠️ Tech Stack
