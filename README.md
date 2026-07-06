@@ -147,15 +147,6 @@ flutter run
 
 ---
 
-## 📸 Screens
-
-- Student Registration Screen
-- Student Records Screen
-
-> You can add screenshots here after uploading them to GitHub.
-
----
-
 ## 📌 Future Improvements
 
 - Update Student Details
